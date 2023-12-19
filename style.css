@@ -1,0 +1,36 @@
+/* Center the form */
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width: 70%;
+    transform:translateX(-20%) translateY(-20%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+form{
+    text-align: center;
+}
+
+img{
+    width:200px;
+    height:auto;
+}
+
+#errorMessage{
+    color:red;
+}
+p{
+    text-align: left;
+}
+#info{
+    display: none;
+    width:70%;
+    height:auto;
+    margin:auto;
+    
+}
+
+#info p{
+    text-align: center;
+}
